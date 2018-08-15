@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="classes">
+			<Node name="class0">
+				<Node name="fields"/>
+				<Node name="methods"/>
+				<Prp name="name" type="S" value="ClassDDT"/>
+			</Node>
+		</Node>
+		<Node name="data">
+			<Node name="group0">
+				<Node name="fields">
+					<Node name="field0">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="IPN_check"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="IPN_check"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="input"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{287058FF-B39C-4C83-9916-F79F8F1C6C36}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes1"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field1">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="IPN"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="IPN_"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="input"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{BE491C11-9E6C-457B-9627-9406C0BB890A}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes2"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field10">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="FailureCause"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="FailureCause"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{D5A8534E-7030-4FF0-9CA5-5AE0CC471402}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes11"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field11">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Comments"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Comments"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{B67B81AA-0646-4BFF-9991-8AC38A4E5131}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes12"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field12">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="BirthDate"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Date"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="BirthDate"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{882DB40A-D8AB-40CB-88DF-181A14A11D1B}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes13"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field13">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Name"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Name"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{CDB667D4-FEB7-4237-9125-B35F875B4070}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes14"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field14">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Surname"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Surname"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{2AF41483-4053-478D-B4B4-4CDF3ABCA33D}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes15"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field15">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="NodeOutletName"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="NodeOutletName"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{2D16E6AB-DA12-4EEC-988F-EC2FC2058D9A}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes16"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field16">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="@UserId"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Numeric"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="UserId"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{291B5310-C7DF-46AD-AC56-BDA6A503B6FE}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes17"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field17">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="@Locale"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Locale"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{F1E83C88-1C5C-4CF0-9168-E2C2DB3B4E23}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes18"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field18">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="maxSum"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Numeric"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="maxSum"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="12.000"/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="credProd"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{C7AD6DA0-FC1C-4A97-B8EB-F1FADEC30CB6}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes19"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field19">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="minSum"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Numeric"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="minSum"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="1.000"/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="credProd"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{7CB5EC37-071E-4420-B357-DFCCB310B0D8}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes20"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field2">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="FailureCause"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="FailureCause"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="input"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{F8A683B5-EF07-491F-86EF-6C589A1A3EFF}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes3"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field20">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="workemail"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="workemail"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="mail@mail.ru"/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="credProd"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{9A694F13-FF7F-408B-925F-0C20877841A2}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes21"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field21">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="@OutputDataLayerName"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="OutputDataLayerName"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="i_sasha_DS"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{ED42F267-952F-44B3-AA62-4E7819E9C44D}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes22"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field22">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="DataSourceName"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="DataSourceName"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="i_sasha_DS"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{99AC5358-CD40-4FF0-B880-2868D2D340CA}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes23"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field23">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="@OutputDataLayerName"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="OutputDataLayerName"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="o_sasha_DS"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{D646194A-3A3B-401C-9370-5D5483386328}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes24"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field24">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Form"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Numeric Column"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Form"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="o_sasha_DS"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{63CC2183-1246-437C-997B-81C5C127E1BD}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes25"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field25">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="id"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Numeric Column"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="id"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="o_sasha_DS"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{23C8CFDF-7D43-4978-B98A-EC6954562DC6}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes26"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field26">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="name"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String Column"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="name"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="o_sasha_DS"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{2A7794DF-B187-4EF8-B64F-766EA44541E7}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes27"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field27">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="ScortoInternalErrorMessage"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="ScortoInternalErrorMessage"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="o_sasha_DS"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{40D8DB92-45E7-4DEA-955C-422008FEFC23}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes28"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field3">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="SearchResult"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="SearchResult"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="input"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{8440870F-59A4-43E1-8D7A-36161BA5265B}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes4"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field4">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Comments"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Comments"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="input"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{A23E01FE-4DAF-4040-96DC-BEB900B9FC76}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes5"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field5">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="BirthDate"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Date"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="BirthDate"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="input"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{7788572A-0DE6-4C2A-BDF4-5F9C8EE9E130}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes6"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field6">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Name"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Name"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="input"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{9712C5D3-699E-41C4-A24B-2977A2B392CF}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes7"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field7">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Surname"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="Surname"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="input"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{41588372-0F6D-4C0F-BD09-23EDFC70E779}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes8"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field8">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="IPN_check"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="IPN_check"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{9C0F4E5F-D23D-480B-AB5B-9EAFD1867A20}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes9"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+					<Node name="field9">
+						<Node name="membervalue">
+							<Node name="fields">
+								<Node name="field0">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="IPN"/>
+									<Prp name="name" type="S" value="name"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field1">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="String"/>
+									<Prp name="name" type="S" value="type"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field2">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="IPN_"/>
+									<Prp name="name" type="S" value="linkedTo"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field3">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value=""/>
+									<Prp name="name" type="S" value="value"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+								<Node name="field4">
+									<Prp name="checked" type="B" value="-1"/>
+									<Prp name="membervalue" type="S" value="output"/>
+									<Prp name="name" type="S" value="options"/>
+									<Prp name="valuetype" type="I" value="8"/>
+								</Node>
+							</Node>
+							<Node name="methods"/>
+							<Prp name="classref" type="S" value="ClassDDT"/>
+							<Prp name="classreftype" type="I" value="0"/>
+							<Prp name="name" type="S" value="ClassDDT{C33FBE37-AA6E-4DE3-91BE-7272A479C268}"/>
+						</Node>
+						<Prp name="checked" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Nodes10"/>
+						<Prp name="valuetype" type="I" value="9"/>
+					</Node>
+				</Node>
+				<Node name="methods"/>
+				<Prp name="checked" type="B" value="-1"/>
+				<Prp name="name" type="S" value="Nodes"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

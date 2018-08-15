@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="closeapplication">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CloseApplication.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{3D261480-1517-46B0-85B2-42B0169DF4D4}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="default_set_of_open_views">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Default_set_of_open_views.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{C05C2648-A507-40A9-9EE1-A1430716C970}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="openaplication">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenAplication.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{DD82EDE1-ABCE-4015-9737-8BA1ACB52A32}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="restartapplication">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RestartApplication.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{0DB1499E-D010-4334-BBC7-986544F22C0D}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="test3">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test3.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{05A91A0E-E11F-404F-9029-5AAB773F2498}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="test4">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test4.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{DFF8F533-C5EC-46FD-8735-24EE3B59CDB8}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="helper">
+				<Node name="folders">
+					<Node name="application">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{3d261480-1517-46b0-85b2-42b0169df4d4}" type="S" value=""/>
+							<Prp name="{0db1499e-d010-4334-bbc7-986544f22c0d}" type="S" value=""/>
+							<Prp name="{dd82ede1-abce-4015-9737-8ba1acb52a32}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Application"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+				</Node>
+				<Node name="references"/>
+				<Prp name="caption" type="S" value="Helper"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="tests">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{c05c2648-a507-40a9-9ee1-a1430716c970}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Tests"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

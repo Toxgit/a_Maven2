@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{66B00374-1F69-4DE3-8E67-4770CDC2B292}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5006C6DA-7702-45C5-B4BB-DCBD0DC7B03E}">
+				<Data Description="Compares the %n Stores item with the image of the %p1 object." Checkpoint="TextEdit1">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Maven.StrategyVariableEditorForm.panelControl7.splitContainerControl1.SplitGroupPanel.xtraTabControl1.xtraTabPage1.pgVariable.TextEdit" />
+						<Parameter Name="Transparent" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Mouse" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="PixelTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="ColorTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Mask" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="8" ValueType="6" ValueValue="TextEdit1_Mask" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{0CFE94DB-5FC1-4E1B-8417-C7849D665861}" />
+	<Parameters Key="{CFAD6130-2A3E-4EFD-8709-4EF062B5DC99}" />
+</Root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{39E1D509-A5D7-4A4D-BB6D-C76AF367ABA7}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+				<Data>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Maven;" />
+				</Data>
+				<Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="CloseApplication" />
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+				<Data CheckMode="{73E6B7BF-A94B-4A3F-A056-5E3B503110A3}">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Maven;" />
+				</Data>
+				<Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="OpenAplication" />
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{89929A3E-5D40-43D3-BBA5-F5F3263097F2}" />
+	<Parameters Key="{1479A057-70DF-490F-9E50-FF281CE6B1EB}" />
+</Root>

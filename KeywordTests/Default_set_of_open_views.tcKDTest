@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{B63A71D2-7BD3-4C4F-AFC3-DB18E21F59D5}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Maven.MainForm.Output" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Enabled" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Maven.MainForm.DebugVariables" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Enabled" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Maven.MainForm.Property" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Enabled" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Maven.MainForm.NodesContainer" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Enabled" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{60B8EBE8-9B0C-4A7B-A452-229144AEA05B}">
+				<Data>
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Loop Variable" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="i">
+							<Restrictions>
+								<PermittedType Key="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" />
+							</Restrictions>
+						</Parameter>
+						<Parameter Name="Start Value" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="End Value" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.Maven.MainForm.MainMenu.wItems.Item(&quot;View&quot;).Items.Count-1" />
+						<Parameter Name="Step" DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+					</Parameters>
+				</Data>
+				<Children>
+					<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+						<Data Description="Executes the specified code snippet." LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" CodeExpression="KeywordTests.Default_set_of_open_views.Variables.CurrentItem=Aliases.Maven.MainForm.MainMenu.wItems.Item(&quot;view&quot;).Items.Item(KeywordTests.Default_set_of_open_views.Variables.i).text" />
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{F4E0D53B-8FE2-4765-80B3-2E2F81E5A00D}">
+		<Items>
+			<Variable Name="i" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
+				<DefValue IntValue="0" />
+			</Variable>
+			<Variable Name="CurrentItem" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue />
+			</Variable>
+			<Variable Name="CurrentState" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
+				<DefValue IntValue="0" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{888EFBAF-8E3A-46F3-B354-DD4546E8C3FD}" />
+</Root>
